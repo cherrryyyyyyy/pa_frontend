@@ -1,0 +1,25 @@
+eyJ2ZXIiOiI4LjE0LjAiLCJhZHIiOlsiMTcyLjE4LjAuMTo5MjAwIl0sImZnciI6ImMyM2YwY2Y1N2YzNzYzNmUzMWIyZWIwNDE1OWI2OGIwZGU3YzY5ZDk5ZGYxYzQwNjAwZWExYmIyZDJkZjE2MDAiLCJrZXkiOiJtaEZOSUpNQmxBUkd2LWhOV1huSjpNV2tZUWlmRFMxT2pwVWNQTjZnbGFBIn0=
+
+
+<!--
+                <el-row>
+                    <el-col :span="20">
+                        <div class="grid-content bg-purple">
+                            <div id="network_id" ref="network_id" class="network" style="height: 700px;width: 1400px;">
+                            </div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="grid-content bg-purple">
+                            <el-descriptions :column="1" border style="height: 300px;width: 300px">
+                                <template v-for="(item, index) in clientInfo.contactInfo">
+                                    <el-descriptions-item label="联系人"
+                                        :key="index">{{ item.contactPerson }}</el-descriptions-item>
+                                    <el-descriptions-item label="联系电话"
+                                        :key="index">{{ item.contactPhone }}</el-descriptions-item>
+                                </template>
+                            </el-descriptions>
+                        </div>
+                    </el-col>        
+                </el-row>
+                -->
